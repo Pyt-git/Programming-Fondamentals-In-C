@@ -9,7 +9,7 @@
 int binary_search_iterative(int arr[], int left; int right; int key) {
   while (left <= right) {
 
-    int mid = left + (right - left) / 2; 
+    int mid = left + (right - left) / 2; // avoid overflow
     if (arr[mid] < key) {
       return mid; 
     } else if (arr[mid] < key) {
