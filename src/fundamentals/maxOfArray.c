@@ -1,5 +1,5 @@
 #include <stdio.h>
-int maxOfArray(int[] numbers, int size) {
+int maxOfArray(int numbers[], int size) {
   int max = numbers[0]; 
 
   for (int i = 1; i < size; i++) {
